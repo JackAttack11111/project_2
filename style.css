@@ -1,0 +1,313 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #291F1E;
+  margin:0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+  height: 108px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #63C7B2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-size: 36pt;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 27px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+div.background1 {
+  background-color: black;
+  height: 960px;
+  width: 100%;
+  text-align: center;
+}
+
+div.background1 img {
+  width: 900px;
+  height: 900px;
+}
+
+header {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  height: 180px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #477998;
+}
+
+header h1 {
+  padding-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 47px;
+}
+
+div.description1 {
+  font-size: 26pt;
+  text-align: center;
+  display: block;
+  height: 764px;
+  width: auto;
+  border-radius: 50px;
+  background-color: #CCDBDC;
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-bottom: 60px;
+  margin-top: 65px;
+  padding: 38px;
+}
+
+div.product {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  width: 563px;
+  height: 498px;
+  margin-top: 48px;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+div.productdesc {
+  text-align: justify;
+  display: inline-block;
+  background-color: #EE964B;
+  border-radius: 50px;
+  width: 523px;
+  height: 220px;
+  padding-top: 250px;
+  margin-top: -258px;
+  margin-left: 34px;
+  margin-right: 34px;
+  z-index: -1;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.product2 {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  width: 566px;
+  height: 498px;
+  margin-top: 21px;
+  margin-left: 343px;
+  margin-right: -266px;
+}
+
+div.productdesc2 {
+  display: inline-block;
+  background-color: #EE964B;
+  border-radius: 50px;
+  width: 526px;
+  height: 280px;
+  padding-top: 250px;
+  margin-top: -258px;
+  margin-left: 343px;
+  margin-right: -266px;
+  margin-bottom: 54px;
+  z-index: -1;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form {
+  font-family: Arial;
+  float: right;
+  margin-bottom: 438px;
+  margin-top: -837px;
+  border-radius: 50px;
+  display: inline-block;
+  width: 1068px;
+  margin-right: 96px;
+}
+
+.containeremail {
+  display: block;
+  background-color: #CCDBDC;
+  height: 777px;
+  margin-right: 134px;
+  margin-left: 48px;
+  margin-bottom: 2px;
+  margin-top: 69px;
+  width: 513px;
+  padding: 27px;
+  border-radius: 50px;
+  font-size: 27pt;
+}
+
+.container {
+  padding: 85px;
+  background-color: #CCDBDC;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
